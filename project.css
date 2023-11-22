@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0px auto;
+    height: fit-content;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ul {
+    display: flex;
+}
+
+.icon1 {
+    width: 30px;
+
+}
+
+li {
+    list-style-type: none;
+    margin: 0px 10px;
+}
+
+.head li a {
+    text-decoration: none;
+    color: black;
+}
+
+.head2 {
+    display: flex;
+}
+
+.nin {
+    background-color: rgb(119, 119, 255);
+    color: white;
+    text-align: center;
+    height: fit-content;
+    width:100%;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+.main {
+    display: flex;
+    margin: 0px auto;
+    gap: 50px;
+    background-color: rgba(241, 238, 232, 0.473);
+    max-width: 1420px;
+    justify-content: center;
+    font-size: 20px;
+}
+
+
+.chart2 {
+    width: 50%;
+    line-height: 2;
+}
+
+.chart2 h1 {
+    font-weight: 900;
+    color: black;
+}
+
+.button1 {
+    width: 200px;
+    background-color: rgba(240, 248, 255, 0.541);
+    color: red;
+    border: none;
+    padding: 10px;
+    font-weight: 900;
+    margin-top: 30px;
+
+}
+
+.chart2 a:hover {
+    color: red;
+}
+
+.chart2 button:hover {
+    color: blue;
+}
+
+.img1 {
+    width: 90%;
+    height: 340px;
+
+}
+
+.button2 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 10px;
+}
+
+.chart2 a {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+.chart2 span {
+    font-weight: 100px;
+    color: black;
+    margin-left: 20px;
+}
+
+.section2 {
+    margin-top: 40px;
+    display: flex;
+    width: 90%;
+    margin: 0px auto;
+    padding: 50px;
+    font-family: serif;
+    justify-content: space-between;
+}
+
+.irim {
+    width: 40PX;
+    
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.3%;
+
+}
+
+.sin {
+    width: 100%;
+}
+
+.sin1 {
+    width: 100%;
+    height: 220px;
+}
+
+.sin2 {
+    width: 100%;
+    height: 220px;
+}
+
+.section3 {
+    display: flex;
+    width: 90%;
+    margin: 0px auto;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+.section3 button {
+    background-color: rgba(255, 255, 255, 0.63);
+    color: blue;
+    border: none;
+    font-weight: 900;
+    line-height: 4;
+}
+
+.section3 span {
+    color: blue;
+    font-weight: 900;
+    margin-left: 3rem;
+}
+
+.section3 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.section3 p {
+    font-size: 1rem;
+}
+
+.cone1 {
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.623);
+    box-shadow: 0rem 0.5rem 2rem 0rem gray;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    padding-top: 30px;
+    width: 33.3%;
+}
+
+.section3 button:hover {
+    color: red;
+}
+
+.section3 span:hover {
+    color: red;
+}
+
+.section4 {
+    background-image: url(images/candle1.jpg);
+    width: 90%;
+    margin: 0px auto;
+    height: fit-content;
+    color: white;
+    margin-top: 3rem;
+}
+
+.hero {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    color: rgba(240, 248, 255, 0.822);
+    height: 300px;
+    padding-top: 150px;
+}
+
+.hero2 {
+    width: 45%;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+}
+
+.image1 {
+    width: 150px;
+    height: 150px;
+}
+
+.image2 {
+    width: 150px;
+    height: 150px;
+}
+
+.image3 {
+    width: 150px;
+    height: 150px;
+}
+
+.section4 button {
+    color: rgba(245, 245, 245, 0.767);
+    background-color: black;
+    border: none;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 3;
+    font-size: 1rem;
+}
+
+.section4 span {
+    color: rgba(240, 248, 255, 0.699);
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 3;
+    font-size: 1rem;
+    margin-left: 3rem;
+}
+
+.section4 button:hover {
+    color: red;
+
+}
+
+.section4 span:hover {
+    color: red;
+}
+.section5{
+    margin-top: 70px;
+}
+.robin {
+    display: flex;
+    width: 90%;
+    margin: 0px auto;
+    gap: 60px;
+    padding-top: 20px;
+}
+
+.icon8 {
+    width: 350px;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.623);
+    box-shadow: 0rem 0.5rem 2rem 0rem gray;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    padding-top: 30px;
+}
+
+.com {
+    width: 320px;
+    height: fit-content;
+}
+
+.com1 {
+    width: 300px;
+    height: 200px;
+}
+.section5 a{
+    display: block;
+    text-decoration: none;
+    color: blue;
+    font-weight: 800;
+     margin-left: -100px;
+    padding-top: 20px;
+}
+.section5 a:hover{
+    color: red;
+}
+.section5 h3{
+    margin-left: 70px;
+    font-size: 25px;
+    font-weight: 800;
+}

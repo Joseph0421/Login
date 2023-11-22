@@ -1,0 +1,234 @@
+@media screen and (max-width:900px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: whitesmoke;
+        color: rgba(14, 11, 11, 0.342);
+    }
+
+    .container {
+        width: 100%;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    .img1 {
+        width: 100%;
+    }
+
+    .container>div {
+        display: block;
+        flex-direction: column;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .chart2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .icon {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .cone1 {
+        width: 100%;
+        
+    }
+    .sin{
+        height: fit-content;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+        align-items: center;
+        
+    }
+    .hero2{
+        width: 20%;
+    }
+
+    .robin {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:600px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: whitesmoke;
+        color: rgba(14, 11, 11, 0.342);
+    }
+
+    .container {
+        width: 100%;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    .img1 {
+        width: 100%;
+    }
+
+    .container>div {
+        display: block;
+        flex-direction: column;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .chart2 {
+        width: 100%;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .icon {
+        width: 100%;
+    }
+
+    .cone1 {
+        width: 100%;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+        align-items: center;
+    }
+
+    .robin {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:375px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: rgb(24, 23, 23);
+        color: white;
+    }
+
+    .container {
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .img1 {
+        width: 100%;
+    }
+
+    .container>div {
+        display: block;
+        flex-direction: column;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .chart2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .icon {
+        width: 100%;
+    }
+
+    .cone1 {
+        width: 100%;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+        justify-content: center;
+    }
+
+    .hero2 {
+        display: block;
+        align-items: center;
+    }
+
+    .robin {
+        display: flex;
+        flex-direction: column;
+    }
+}
